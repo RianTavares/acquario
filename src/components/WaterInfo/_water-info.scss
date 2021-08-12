@@ -1,0 +1,19 @@
+.water-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: $gutter;
+
+  p {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+
+  &__button {
+    width: 100%;
+    height: $gutter;
+    background-color: #4051b5;
+    border: 0;
+    color: white;
+  }
+}

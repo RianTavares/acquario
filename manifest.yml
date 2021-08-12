@@ -1,0 +1,7 @@
+applications:
+  - name: acquario-app
+    command: node server.js
+    memory: 256M
+    buildpack: https://github.com/cloudfoundry/nodejs-buildpack.git
+
+    

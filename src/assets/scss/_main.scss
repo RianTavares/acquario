@@ -1,0 +1,9 @@
+// general vars and scss confs
+@import '../scss/conf';
+
+// pages
+@import '../../pages/Home/home';
+@import '../../pages/Form/form';
+
+// components
+@import '../../components/WaterInfo/water-info';

@@ -1,0 +1,47 @@
+/*
+|--------------------------------------------------------------------------
+| APP color schema
+|--------------------------------------------------------------------------
+*/
+
+/*
+|--------------------------------------------------------------------------
+| APP size schema
+|--------------------------------------------------------------------------
+*/
+
+$gutter: 32px;
+
+
+/*
+|--------------------------------------------------------------------------
+| BREAKPOINTS
+|--------------------------------------------------------------------------
+*/
+
+// Usage example:  @media #{$BREAKPOINT-DESK}
+
+$BREAKPOINT-DESK: "only screen and (min-width: 1056px)";
+$BREAKPOINT-TABLET-LAND: "only screen and (min-width: 975px)";
+$BREAKPOINT-TABLET: "only screen and (min-width: 600px)";
+$BREAKPOINT-MOBILE-LAND: "only screen and (min-width: 480px)";
+
+/*
+|--------------------------------------------------------------------------
+| MIXINS AND GENERAL CSS
+|--------------------------------------------------------------------------
+*/
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.menu-logo {
+  padding: 10px;
+  margin-left: 20%;
+
+  @media #{$BREAKPOINT-DESK} {
+    margin-left: 43%;
+  }
+}
